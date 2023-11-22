@@ -3,11 +3,11 @@ class Slice:
                  connected_users, user_share, delay_tolerance, qos_class,
                  bandwidth_guaranteed, bandwidth_max, init_capacity,
                  usage_pattern):
-        self.name = name
-        self.connected_users = connected_users
+        self.name = name #切片名称
+        self.connected_users = connected_users #连接用户
         self.user_share = user_share
-        self.delay_tolerance = delay_tolerance
-        self.qos_class = qos_class
+        self.delay_tolerance = delay_tolerance #时延要求
+        self.qos_class = qos_class #QoS等级
         self.ratio = ratio
         self.bandwidth_guaranteed = bandwidth_guaranteed
         self.bandwidth_max = bandwidth_max
